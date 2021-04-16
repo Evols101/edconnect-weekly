@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Project Explorer</title>
+    
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    </head>
+
+
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+            <a class="navbar-brand" href="index.html">Project Explorer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search Projects" aria-label="SearchForm">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>    
+                    
+                </form>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="createproject.html">Submit</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="register.html">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="viewproject.html">View</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="editproject.html">Edit</a>
+                     </li>
+                     
+                </ul>   
+            </div>
+        </nav>
+
+    </body>
+        
+   <br><br><br><br>
+   <main class="mx-auto" style="width: 1100px;">
+    <h4>Project 1</h4>
+     <div class="container bg-light">
+        <div class="row">
+            <div class="col-3">
+             <p>Program</p>
+             <p>Computer Information System</p>
+            </div>
+            <div class="col-3">
+             <p>Matriculation Number</p>
+             <p>09/2020</p>  
+            </div>
+            <div class="col-3">
+             <p>Graduation Year</p>
+             <p>2020</p>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary btn-sm">View Project</button>
+            </div>
+        </div>
+    </div>
+       <br><br><br> <div class="row">
+            <div class="col">
+                <strong>Edit Project</strong>
+                <hr class="my-4">
+                <div class="form-group">
+                    <label for="projectname">Project Name:</label>
+                    <input type="text" name="projectname" id="projectname" class="form-control" placeholder="Project 1"/>              
+                </div>
+                <div class="form-group">
+                    <label for="projectabstract">Project Abstract:</label>
+                    <textarea type="text" name="abstract" class="form-control" rows="7"> Project1 is a very interesting project</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="author">Authors:</label>
+                    <input type="text" name="authors" id="author" class="form-control" placeholder="Ashmiyu Musa"/>
+                </div>
+                <div class="form-group">
+                    <label for="tag">Tag(s):</label>
+                    <input type="text" name="tags" id="tag" class="form-control" placeholder="#eva" />
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Save</button>
+               </div>
+            </div>
+            
+            <div class="col">
+                <strong>Manage Project Files</strong>
+                <hr class="my-4">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Click to open browser</label>
+                </div>
+                <hr class="my-4">
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                      <strong>Project Files</strong>
+                    </div>
+                    <div class="card-body">
+                      <p>No Upload Yet</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <br><br> <div class="container bg-light form-control-lg text-right">
+            <div class="col-sm-12-md-12">
+                 <p class="card-text">Project Explorer &copy;2020 <strong>EdConnect</strong></p>
+            </div>
+           </div>
+     </main>
+</html>
+   
+    
+        
+    
